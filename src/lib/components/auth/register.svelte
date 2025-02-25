@@ -28,7 +28,7 @@
       })
 
       if (!response.ok) {
-        throw new Error("Register gagal");
+        throw new Error(data.message || "Register gagal");
       } else {
         goto("/login", {replaceState: true});
       }

@@ -36,7 +36,7 @@
       }
 
       successMessage = "Login berhasil!";
-      console.log("Token:", data.token); // Simpan token ke localStorage/session jika diperlukan
+      console.log("Token:", data.token);
     } catch (error) {
       errorMessage = error.message;
     }
