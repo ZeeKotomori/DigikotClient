@@ -1,6 +1,6 @@
 <script>
-    import Register from '$lib/components/auth/register.svelte';
+    import JoinWithPhone from "$lib/components/register.svelte";
     import "../../app.css";
 </script>
 
-<Register></Register>
+<JoinWithPhone></JoinWithPhone>
