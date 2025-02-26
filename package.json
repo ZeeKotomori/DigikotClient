@@ -18,6 +18,8 @@
 	},
 	"dependencies": {
 		"@tailwindcss/vite": "^4.0.7",
+		"leaflet": "^1.9.4",
+		"svelte-leaflet": "^0.2.0",
 		"tailwindcss": "^4.0.7"
 	}
 }
